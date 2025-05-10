@@ -1,1 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/o1k9rghjovo4d355?svg=true)](https://ci.appveyor.com/project/lyopic/card-order-tests)
+# Card Order Tests
+
+![Java CI](https://github.com/lyopic/card-order-tests/actions/workflows/gradle.yml/badge.svg)
+
+Автоматические тесты формы заказа карты.
