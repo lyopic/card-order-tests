@@ -10,10 +10,17 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
+    // Selenium для тестирования UI
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.18.1'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.7.0'
+
+    // RestAssured для тестирования API
     testImplementation 'io.rest-assured:rest-assured:5.3.1'
     testImplementation 'io.rest-assured:json-schema-validator:4.3.1'
+
+    // JUnit и Hamcrest
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
 }
 
 test {
