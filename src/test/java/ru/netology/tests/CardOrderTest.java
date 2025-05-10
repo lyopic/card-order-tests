@@ -10,6 +10,7 @@ public class CardOrderTest {
 
     @BeforeAll
     public static void setupAll() {
+        // Автоматически скачивает и настраивает chromedriver под нужную ОС
         WebDriverManager.chromedriver().setup();
     }
 
